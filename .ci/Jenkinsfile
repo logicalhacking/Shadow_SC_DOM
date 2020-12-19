@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh 'docker run -v $PWD/Core_DOM:/Core_DOM logicalhacking:isabelle2020 isabelle build -D /Shadow_SC_DOM'
+            }
+        }
+    }
+}
