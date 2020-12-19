@@ -1,0 +1,88 @@
+To cite the use of this formal theory, please use
+
+  Achim D. Brucker and Michael Herzberg. A Formal Model of the Safely Composable Document Object Model
+  with Shadow Roots. In Archive of Formal Proofs, 2020. http://www.isa-afp.org/entries/Shadow_SC_DOM.html,
+  Formal proof development
+
+
+A BibTeX entry for LaTeX users is
+
+@Article{         brucker.ea:afp-shadow-sc-dom:2020,
+  author        = {Achim D. Brucker and Michael Herzberg},
+  title         = {Shadow SC DOM: A Formal Model of the Safelty Composable Document Object Model with Shadow Roots},
+  journal       = {Archive of Formal Proofs},
+  month         = sep,
+  year          = 2020,
+  date          = {2020-09-28},
+  note          = {\url{http://www.isa-afp.org/entries/Shadow_SC_DOM.html}, Formal proof development},
+  issn          = {2150-914x},
+  abstract      = { In this AFP entry, we extend our formalization of the safely composable DOM with \emph{Shadow
+                  Roots}. Shadow roots are a recent proposal of the web community to support a component-based
+                  development approach for client-side web applications.
+
+                  Shadow roots are a significant extension to the DOM standard and, as web standards are condemned to be
+                  backward compatible, such extensions often result in complex specification that may contain unwanted
+                  subtleties that can be detected by a formalization.
+
+                  Our Isabelle/HOL formalization is, in the sense of object-orientation, an extension of our
+                  formalization of the core DOM and enjoys the same basic properties, i.e., it is extensible, i.e., can
+                  be extended without the need of re-proving already proven properties and executable, i.e., we can
+                  generate executable code from our specification. We exploit the executability to show that our
+                  formalization complies to the official standard of the W3C, respectively, the WHATWG. },
+  public        = {yes},
+  classification= {formal},
+  categories    = {websecurity},
+  pdf           = {http://www.brucker.ch/bibliography/download/2020/brucker.ea-afp-shadow-sc-dom-2020.pdf},
+  filelabel     = {Outline},
+  file          = {http://www.brucker.ch/bibliography/download/2020/brucker.ea-afp-shadow-sc-dom-outline-2020.pdf},
+  areas         = {formal methods, security, software engineering},
+  url           = {http://www.brucker.ch/bibliography/abstract/brucker.ea-afp-shadow-sc-dom-2020}
+}
+
+An overview of the formalization is given in:
+
+  Achim D. Brucker and Michael Herzberg. A Formally Verified Model of
+  Web Components. In Formal Aspects of Component Software (FACS).
+  Lecture Notes in Computer Science (12018), Springer-Verlag, 2020.
+  http://www.brucker.ch/bibliography/abstract/brucker.ea-web-components-2019
+
+A BibTeX entry for LaTeX users is
+
+
+@InCollection{    brucker.ea:web-components:2019,
+  abstract      = {The trend towards ever more complex client-side web applications is unstoppable. Compared to
+                  traditional software development, client-side web development lacks a well-established component
+                  model, i.e., a method for easily and safely reusing already developed functionality. To address this
+                  issue, the web community started to adopt shadow trees as part of the Document Object Model (DOM):
+                  shadow trees allow developers to "partition" a DOM instance into parts that should be safely
+                  separated, e.g., code modifying one part should not, unintentionally, affect other parts of the DOM.
+
+                  While shadow trees provide the technical basis for defining web components, the DOM standard neither
+                  defines the concept of web components nor specifies the safety properties that web components should
+                  guarantee. Consequently, the standard also does not discuss how or even if the methods for modifying
+                  the DOM respect component boundaries. In this paper, we present a formally verified model of web
+                  components and define safety properties which ensure that different web components can only interact
+                  with each other using well-defined interfaces. Moreover, our verification of the application
+                  programming interface (API) of the DOM revealed numerous invariants that implementations of the DOM
+                  API need to preserve to ensure the integrity of components.},
+  keywords      = {Web Component, Shadow Tree, DOM, Isabelle/HOL},
+  location      = {Amsterdam, The Netherlands},
+  author        = {Achim D. Brucker and Michael Herzberg},
+  booktitle     = {Formal Aspects of Component Software (FACS)},
+  language      = {USenglish},
+  publisher     = pub-springer,
+  address       = pub-springer:adr,
+  series        = s-lncs,
+  number        = 12018,
+  isbn          = {3-540-25109-X},
+  doi           = {10.1007/978-3-030-40914-2_3},
+  editor        = {Sung-Shik Jongmans and Farhad Arbab},
+  pdf           = {http://www.brucker.ch/bibliography/download/2019/brucker.ea-web-components-2019.pdf},
+  title         = {A Formally Verified Model of Web Components},
+  classification= {conference},
+  areas         = {formal methods, software},
+  year          = 2020,
+  public        = {yes},
+  url           = {http://www.brucker.ch/bibliography/abstract/brucker.ea-web-components-2019}
+}
+
