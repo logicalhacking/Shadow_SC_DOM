@@ -9,7 +9,7 @@ A BibTeX entry for LaTeX users is
 
 @Article{         brucker.ea:afp-shadow-sc-dom:2020,
   author        = {Achim D. Brucker and Michael Herzberg},
-  title         = {Shadow SC DOM: A Formal Model of the Safelty Composable Document Object Model with Shadow Roots},
+  title         = {A Formal Model of the Safely Composable Document Object Model with Shadow Roots},
   journal       = {Archive of Formal Proofs},
   month         = sep,
   year          = 2020,
